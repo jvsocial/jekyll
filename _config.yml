@@ -1,20 +1,38 @@
-title: "AWS DevOps Tutorials"
-description: "A collection of lessons and demos for AWS DevOps"
-baseurl: "/aws-devops"  # The base URL for your GitHub Pages site
-url: "https://jvsocial.github.io"  # The root URL of your GitHub Pages site
+# _config.yml
+title: Documentation Hub
+description: Knowledge Base Documentation
+baseurl: ""
+url: ""
 
-remote_theme: pages-themes/slate
-
+# Build settings
 markdown: kramdown
-kramdown:
-  toc: true
-  toc_levels: 1..3
-  syntax_highlighter: rouge
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
-navigation:
-  - title: "Home"
-    url: "{{ site.baseurl }}/"
-  - title: "Lesson 1"
-    url: "{{ site.baseurl }}/lesson1/"
-  - title: "Lesson 2"
-    url: "{{ site.baseurl }}/lesson2/"
+# Exclude directories and files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - README.md
+
+# Collections settings for dynamic folder structure
+collections_dir: docs
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Default layouts
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: "*/index.md"
+    values:
+      layout: "section"
