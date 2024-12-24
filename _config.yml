@@ -1,38 +1,13 @@
 # _config.yml
-title: Documentation Hub
-description: Knowledge Base Documentation
-baseurl: ""
-url: ""
+title: My Demos Site
+description: A collection of demos organized by lessons
+theme: jekyll-theme-minimal
+url: https://jvsocial.github.io/aws-devops
+baseurl: "/aws-devops"
+author: jvsocial
 
-# Build settings
-markdown: kramdown
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-
-# Exclude directories and files
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-  - .git
-  - README.md
-
-# Collections settings for dynamic folder structure
-collections_dir: docs
+# Enable collections for demos
 collections:
-  pages:
+  demos:
     output: true
     permalink: /:path/
-
-# Default layouts
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "default"
-  - scope:
-      path: "*/index.md"
-    values:
-      layout: "section"
