@@ -1,5 +1,5 @@
 # _config.yml
-title: My Demos Site
+title: AWS DevOps Demos
 description: A collection of demos organized by lessons
 theme: jekyll-theme-minimal
 url: https://jvsocial.github.io/aws-devops
@@ -10,4 +10,4 @@ author: jvsocial
 collections:
   demos:
     output: true
-    permalink: /:path/
+    permalink: /demos/:title/
