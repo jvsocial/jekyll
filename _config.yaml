@@ -1,3 +1,24 @@
-title: My Website
-description: Welcome to my GitHub Pages site
-theme: jekyll-theme-cayman
+title: "My Technical Tutorials"
+description: "A collection of technical tutorials and guides"
+baseurl: "" # leave blank for GitHub Pages
+url: "https://yourusername.github.io" # Replace with your GitHub Pages URL
+
+theme: just-the-docs
+just_the_docs:
+  search_enabled: true
+  navigation:
+    pages:
+      - title: "Getting Started"
+        url: /getting-started/
+      - title: "Tutorials"
+        children:
+          - title: "Tutorial 1"
+            url: /tutorials/tutorial-1/
+          - title: "Tutorial 2"
+            url: /tutorials/tutorial-2/
+
+# Enable syntax highlighting
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    block: { line_numbers: true }
