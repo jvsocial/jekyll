@@ -10,7 +10,11 @@
   <header>
     <h1>{{ site.title }}</h1>
     <nav>
-      <a href="{{ "/" | relative_url }}">Home</a>
+      <a href="{{ site.baseurl | relative_url }}">Home</a>
+      <a href="{{ site.baseurl }}/demos/lesson1" | relative_url>Lesson 1</a>
+      <a href="{{ site.baseurl }}/demos/lesson2" | relative_url>Lesson 2</a>
+      <a href="{{ site.baseurl }}/demos/lesson3" | relative_url>Lesson 3</a>
+      <!-- Add more lessons or other pages as needed -->
     </nav>
   </header>
 
