@@ -1,14 +1,14 @@
 title: "AWS DevOps Tutorials"
 description: "A collection of lessons and demos for AWS DevOps"
 baseurl: ""  # Leave empty for GitHub Pages
-url: "https://jvsocial.github.io/aws-devops"  # Replace with your GitHub Pages URL
+url: "https://yourusername.github.io/aws-devops"  # Replace with your GitHub Pages URL
 
-theme: slate
+remote_theme: pages-themes/slate
 
 markdown: kramdown
 kramdown:
-  toc: true  # Enables Table of Contents
-  toc_levels: 1..3  # Includes headings h1, h2, h3 in TOC
+  toc: true
+  toc_levels: 1..3
   syntax_highlighter: rouge
 
 navigation:
@@ -18,14 +18,3 @@ navigation:
     url: "/lesson1/"
   - title: "Lesson 2"
     url: "/lesson2/"
-  - title: "Lesson 3"
-    url: "/lesson3/"
-  - title: "Lesson 4"
-    url: "/lesson4/"
-  - title: "Lesson 5"
-    url: "/lesson5/"
-  - title: "Lesson 6"
-    url: "/lesson6/"
-
-plugins:
-  - jekyll-seo-tag  # Optional, for SEO
