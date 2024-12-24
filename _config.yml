@@ -1,7 +1,7 @@
 title: "AWS DevOps Tutorials"
 description: "A collection of lessons and demos for AWS DevOps"
 baseurl: ""  # Leave empty for GitHub Pages
-url: "https://yourusername.github.io/aws-devops"  # Replace with your GitHub Pages URL
+url: "https://jvsocial.github.io/aws-devops"  # Replace with your GitHub Pages URL
 
 remote_theme: pages-themes/slate
 
