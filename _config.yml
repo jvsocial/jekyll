@@ -2,7 +2,7 @@ title: AWS DevOps Demos
 description: A collection of demos organized by lessons
 theme: jekyll-theme-minimal
 url: https://jvsocial.github.io/aws-devops
-baseurl: "/kekyll"
+baseurl: "/jekyll"
 author: jvsocial
 
 # Enable collections for demos
@@ -14,6 +14,7 @@ collections:
 # Plugins and features
 plugins:
   - jekyll-paginate
+  - jekyll-readme-index
 
 # Exclusions
 exclude:
