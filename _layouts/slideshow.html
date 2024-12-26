@@ -14,6 +14,7 @@
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/reveal.js@4/dist/reveal.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4/plugin/markdown/markdown.min.js"></script>
     <script>
       Reveal.initialize({
         controls: true,
@@ -23,7 +24,8 @@
         keyboard: true,
         overview: true,
         center: true,
-        transition: 'slide' // Options: none/fade/slide/convex/concave/zoom
+        transition: 'slide', // Options: none/fade/slide/convex/concave/zoom
+        plugins: [ RevealMarkdown ]
       });
     </script>
   </body>
