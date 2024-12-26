@@ -5,34 +5,7 @@ url: https://jvsocial.github.io/aws-devops
 baseurl: "/jekyll"
 author: jvsocial
 
-# Enable collections for demos
-collections:
-  demos:
-    output: true
-    permalink: /demos/:title/
 
 # Plugins and features
 plugins:
-  - jekyll-paginate
   - jekyll-readme-index
-
-# Exclusions
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-
-# Reveal.js Slideshow Configuration (optional metadata)
-slides:
-  reveal_css: "https://cdn.jsdelivr.net/npm/reveal.js@4/dist/reveal.min.css"
-  reveal_theme: "https://cdn.jsdelivr.net/npm/reveal.js@4/dist/theme/black.css"
-  reveal_js: "https://cdn.jsdelivr.net/npm/reveal.js@4/dist/reveal.min.js"
-  reveal_options:
-    controls: true
-    progress: true
-    slideNumber: true
-    history: true
-    keyboard: true
-    overview: true
-    center: true
-    transition: slide # Options: none/fade/slide/convex/concave/zoom
